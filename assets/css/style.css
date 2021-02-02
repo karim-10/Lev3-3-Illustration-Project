@@ -1,97 +1,89 @@
-
-*{
-    margin: 0 auto;
-    padding: 0 auto;
-    
+* {
+  margin: 0 auto;
+  padding: 0 auto;
 }
 /*---------- Header ---------*/
 /*---------- Header ---------*/
 /*---------- Header ---------*/
 /*---------- Header ---------*/
-header{
-   /* background-color: red;*/
+header {
+  /* background-color: red;*/
 }
 header ul {
-    list-style-type: none;
-
+  list-style-type: none;
 }
-header ul li{
-    display: inline;
-    position: relative;
-    left: 61em;
-    padding-left: 2em;
-    text-align: center;
-  
+header ul li {
+  display: inline;
+  position: relative;
+  left: 70%;
+  padding-left: 2em;
+  text-align: center;
 }
 
-header ul li a{
-    text-decoration: none;
-    color: gray;
-    font-size: 2em;
+header ul li a {
+  text-decoration: none;
+  color: gray;
+  font-size: 2em;
 }
 /*______________ section 1 _____________*/
 
-section:nth-of-type(1){
-   /* background-color: red;*/
-    background-image: url(../img/illustration1.gif);
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 95vh;
-    margin: 0px 100px;
+section:nth-of-type(1) {
+  /* background-color: red;*/
+  background-image: url(../img/illustration1.gif);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 95vh;
+  margin: 0px 100px;
 }
-.h1{
-    font-family: 'Merriweather', serif;
-    font-size: 4em;
-    padding-top: 200px;
+.h1 {
+  font-family: "Merriweather", serif;
+  font-size: 4em;
+  padding-top: 200px;
 }
-.p1{
-    font-family: 'Lato', sans-serif;
-    font-size: 1.5em;
-    line-height: 2em;
+.p1 {
+  font-family: "Lato", sans-serif;
+  font-size: 1.5em;
+  line-height: 2em;
 }
 /*_________  section 2 __________*/
 /*_________  section 2 __________*/
 
-
-section:nth-of-type(2){
-   /* background-color: lightcoral;*/
-    background-image: url(../img/illustration2.png);
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 100vh;
-    margin: 200px 100px;
-
+section:nth-of-type(2) {
+  /* background-color: lightcoral;*/
+  background-image: url(../img/illustration2.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100vh;
+  margin: 200px 100px;
 }
-section:nth-of-type(2) h1{
-    font-family: 'Merriweather', serif;
-    font-size: 3em;
-    padding-top: 200px;
-    padding-left: 700px;
+section:nth-of-type(2) h1 {
+  font-family: "Merriweather", serif;
+  font-size: 3em;
+  padding-top: 200px;
+  padding-left: 700px;
 }
-section:nth-of-type(2) p{
-    font-family: 'Lato', sans-serif;
-    padding-top: 20px;
-    padding-left: 700px;
-    line-height: 2em;
-    font-size: 20px;
+section:nth-of-type(2) p {
+  font-family: "Lato", sans-serif;
+  padding-top: 20px;
+  padding-left: 700px;
+  line-height: 2em;
+  font-size: 20px;
 }
-
 
 /*___________ section  3 _________*/
 /*___________ section  3 _________*/
 /*___________ section  3 _________*/
 
-
-section:nth-of-type(3){
-   /* background-color: yellow;*/
-    background-image: url(../img/illustration3.png);
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: contain;
-   /* height: 100vh;*/
-    margin: 200px 100px;
+section:nth-of-type(3) {
+  /* background-color: yellow;*/
+  background-image: url(../img/illustration3.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* height: 100vh;*/
+  margin: 200px 100px;
 }
 
 /*____________Section 4 __________*/
@@ -99,60 +91,64 @@ section:nth-of-type(3){
 /*____________Section 4 __________*/
 /*____________Section 4 __________*/
 
-section:nth-of-type(4){
-    /*background-color: blue;*/
-    height: 100vh;
-    margin: 0px 100px;
+section:nth-of-type(4) {
+  margin: 0px 0;
+}
+.images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+section:nth-of-type(4) h1 {
+  text-align: center;
+  font-size: 4em;
+  font-family: "Merriweather", serif;
+}
+section:nth-of-type(4) p {
+  font-size: 1em;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  line-height: 2em;
+}
+section:nth-of-type(4) img {
+  margin-left: auto;
+  margin-right: auto;
+}
 
-}
-section:nth-of-type(4) h1{
-    text-align: center;
-    font-size: 4em;
-    font-family: 'Merriweather', serif;
-}
-section:nth-of-type(4) p{
-    font-size: 1em;
-    text-align: center;
-    font-family: 'Lato', sans-serif;
-    line-height: 2em;
-}
-section:nth-of-type(4) img{
-   margin-left: auto;
-   margin-right: auto;
-   
-    
-}
-
 /*_________ section 5____________*/
 /*_________ section 5____________*/
 /*_________ section 5____________*/
 /*_________ section 5____________*/
 /*_________ section 5____________*/
-
-section:nth-of-type(5){
-    height: 160vh;
-    /*background-color: green;*/
-    padding-top: 50px;
-    margin: 0px 100px;
+.sixImages {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 20px;
+  padding: 50px 100px;
 }
-.left{
-    width: 49%;
-    padding-right: 20px;
-    padding-top: 20px;
-    display: inline-flex;
-} 
-.right{
-    width: 49%;
-    display: inline-flex;
+.sixImages img {
+  width: 100%;
 }
+/* section:nth-of-type(5) {
+  height: 160vh;
+  padding-top: 50px;
+  margin: 0px 100px;
+}
+/* .left {
+  width: 49%;
+  padding-right: 20px;
+  padding-top: 20px;
+  display: inline-flex;
+}
+.right {
+  width: 49%;
+  display: inline-flex;
+} */
 
 /*_____________ zoom on hover____________*/
 /*_____________ zoom on hover____________*/
 /*_____________ zoom on hover____________*/
 
-
-
-
 /*__________ section 6 _________*/
 /*__________ section 6 _________*/
 /*__________ section 6 _________*/
@@ -160,64 +156,65 @@ section:nth-of-type(5){
 /*__________ section 6 _________*/
 /*__________ section 6 _________*/
 
-
-section:nth-of-type(6){
-   /* background-color: yellow;*/
-    height: 150vh;
-    margin: 0 100px;
+section:nth-of-type(6) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 100px;
 }
-section:nth-of-type(6) h1{
-    text-align: center;
-    font-size: 4em;
-    font-family: 'Merriweather', serif;
-    padding-top: 100px;
+section:nth-of-type(6) h1 {
+  text-align: center;
+  font-size: 4em;
+  font-family: "Merriweather", serif;
+  padding-top: 100px;
 }
-section:nth-of-type(6)>p{
-    font-size: 1.3em;
-    text-align: center;
-    font-family: 'Lato', sans-serif;
-    line-height: 1.3em;
-    /*font-weight: bold;*/
+section:nth-of-type(6) > p {
+  font-size: 1.3em;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  line-height: 1.3em;
+  /*font-weight: bold;*/
 }
-
 
 /*_________ section 6 div ________*/
 /*_________ section 6 div ________*/
 /*_________ section 6 div ________*/
 
-section:nth-of-type(6) div{
-    border: solid 0.5px silver ;
-    border-radius: 5px;
-    background-color: rgb(244, 251, 255);
-    margin: 40px 400px;
-    height: 85vh;
+section:nth-of-type(6) div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: solid 0.5px silver;
+  border-radius: 5px;
+  background-color: rgb(244, 251, 255);
+  padding: 50px 0;
+  margin: 50px 0;
+  width: 400px;
 }
 
-
-section:nth-of-type(6) div h2{
-    text-align: center;
-    font-family: 'Merriweather', serif;
-    padding-top: 50px;    
+section:nth-of-type(6) div h2 {
+  text-align: center;
+  font-family: "Merriweather", serif;
+  padding-top: 50px;
 }
-section:nth-of-type(6) div h3{
-    text-align: center;
-    padding-top: 50px;
-    font-size: 2em;
-    font-weight: bolder;
-    
+section:nth-of-type(6) div h3 {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 2em;
+  font-weight: bolder;
 }
-section:nth-of-type(6) h4{   
-    color: gray;  
-    font-size: 25px;
-    padding-top: 50px;
-    text-align: center;
-    padding-bottom: 20px;   
-    
+section:nth-of-type(6) h4 {
+  color: gray;
+  font-size: 25px;
+  padding-top: 50px;
+  text-align: center;
+  padding-bottom: 20px;
 }
-section:nth-of-type(6) div p{
-    /*background-color:red;*/
-    text-align: center;
-    font-size: 1.25em;
+section:nth-of-type(6) div p {
+  font-size: 1.25em;
+  max-width: 150px;
 }
 /*  section:nth-of-type(6) button{
     background-color: rgb(0, 140, 180);
@@ -225,105 +222,102 @@ section:nth-of-type(6) div p{
     
 }  */
 section:nth-of-type(6) div a {
-    border: solid 0.7px rgb(0, 140, 180);
-    border-radius: 3px;
-    background-color: rgb(0, 140, 180);
-    display: inline-block;
-    margin-left: 95px;
-    margin-top: 15px;
-}    
-       
-section:nth-of-type(6) a{ 
-    color: whitesmoke;
-    text-decoration: none;
-    font-size: 20px;
-    text-align: center;
-    padding: 15px 50px;
-}   
-section:nth-of-type(6) a:hover{
-    color: wheat;
-    opacity: 1;
+  border: solid 0.7px rgb(0, 140, 180);
+  border-radius: 3px;
+  background-color: rgb(0, 140, 180);
+  display: inline-block;
+  margin-top: 15px;
+}
+
+section:nth-of-type(6) a {
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+  padding: 15px 50px;
+}
+section:nth-of-type(6) a:hover {
+  color: wheat;
+  opacity: 1;
 }
 
 /*__________ footer __________*/
 /*__________ footer __________*/
 /*__________ footer __________*/
 
-footer{
-    /*background-color: rgb(0, 140, 180);*/
-    height: 50vh;
+footer {
+  /*   background-color: rgb(0, 140, 180);
+ */
+  padding: 50px 0;
 }
-footer p:nth-of-type(1){   
-    text-align: center;
-    font-size: 5em;
+footer p:nth-of-type(1) {
+  text-align: center;
+  font-size: 5em;
+}
 
+footer h5 {
+  color: black;
+  text-align: center;
+  font-size: 2.5em;
+  margin-top: 40px;
 }
-
-footer h5{
-    color: black;
-    text-align: center;
-    font-size: 2.5em;
-    margin-top: 40px;    
+footer span {
+  color: gray;
+  padding-left: 30px;
 }
-footer span{
-    color: gray;
-    padding-left: 30px;
-}
-footer p:nth-of-type(2){
-    text-align: center;
-    margin-top: 30px;
-    font-size: 3em;
-    color:black;
+footer p:nth-of-type(2) {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 3em;
+  color: black;
 }
 /*________social media _________*/
 /*________social media _________*/
 /*________social media _________*/
 
-
-footer ul{
-    list-style-type: none;
-    margin-top: 30px;
-    text-align: center;
-    
+footer ul {
+  list-style-type: none;
+  margin-top: 30px;
+  text-align: center;
 }
 footer ul li {
-    display: inline;
-    margin-right: 6px;
+  display: inline;
+  margin-right: 6px;
 }
-footer ul li:first-child{
-    font-size: 1em;
-    color: black;
-    font-weight: bold;
+footer ul li:first-child {
+  font-size: 1em;
+  color: black;
+  font-weight: bold;
 }
 .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 15px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 5px;
-    border-radius: 50px;
+  padding: 20px;
+  font-size: 30px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 5px;
+  border-radius: 50px;
 }
 .fa:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 .fa-facebook {
-    background: #3B5998;
-    color: white;
+  background: #3b5998;
+  color: white;
 }
-  
+
 .fa-twitter {
-    background: #55ACEE;
-    color: white;
+  background: #55acee;
+  color: white;
 }
 .fa-youtube {
-    background: #bb0000;
-    color: white;
+  background: #bb0000;
+  color: white;
 }
-  
+
 .fa-instagram {
-    background: #125688;
-    color: white;
+  background: #125688;
+  color: white;
 }
 /*_____________________________ The End _____________________________*/
 /*_____________________________ The End _____________________________*/
